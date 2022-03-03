@@ -1,0 +1,57 @@
+header{
+    display: flex; /*alligns*/
+    justify-content: space-between;
+    margin-left: 1vw;
+    
+}
+/* margin-distance from other content */
+/* padding-increase boundary area like garden around house */
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    font-size: large;
+    margin-top: 2vw;
+    width: 40vw;
+}
+ul>li:hover{
+    cursor:pointer;
+    color: gray;
+}
+nav{
+    /* width: 40vw; */
+}
+.bigimage{
+    width: 95vw;
+    margin: 1rem;
+    margin-bottom: 3rem;
+}
+.container{
+    display: flex;
+
+}
+.container>div{
+    text-align: center;
+}
+.container>div>img{
+    margin: 1vw;
+}
+.container>div>p{
+    font-size: large;
+
+}
+*{
+    background-color: black;
+    color: white;
+}
+h1{
+    font-weight: normal;
+}
+.foot>h2{
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding-top: 0.25rem;
+    /* height */
+    padding-bottom: 0.25rem;
+}
